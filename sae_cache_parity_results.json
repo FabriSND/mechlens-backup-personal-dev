@@ -1,0 +1,120 @@
+[
+  {
+    "dtype": "float32",
+    "device": "cpu",
+    "shape": [
+      1,
+      11,
+      3072
+    ],
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "allclose": true,
+    "mismatched_elements": 0,
+    "raw_cache_matches_live": true,
+    "normalized_feature_path_matches_float32": true,
+    "raw_cache_errors": {
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "allclose": true,
+      "mismatched_elements": 0
+    },
+    "subtract_before_cast_errors": {
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "allclose": true,
+      "mismatched_elements": 0
+    },
+    "feature_shape": [
+      1,
+      11,
+      4096
+    ],
+    "hook_calls": 1,
+    "independent_storage": true,
+    "finite": true,
+    "seed": 42,
+    "hook": "blocks.8.mlp.hook_post",
+    "prompt": "The quick brown fox jumps over the lazy dog.",
+    "tokens": [
+      [
+        50256,
+        464,
+        2068,
+        7586,
+        21831,
+        18045,
+        625,
+        262,
+        16931,
+        3290,
+        13
+      ]
+    ],
+    "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "python_version": "3.12.14",
+    "torch_version": "2.14.1+cpu",
+    "transformers_version": "5.19.0",
+    "assumption_based": true,
+    "passed": true
+  },
+  {
+    "dtype": "bfloat16",
+    "device": "cpu",
+    "shape": [
+      1,
+      11,
+      3072
+    ],
+    "max_abs_error": 0.0,
+    "mean_abs_error": 0.0,
+    "allclose": true,
+    "mismatched_elements": 0,
+    "raw_cache_matches_live": true,
+    "normalized_feature_path_matches_float32": true,
+    "raw_cache_errors": {
+      "max_abs_error": 0.0,
+      "mean_abs_error": 0.0,
+      "allclose": true,
+      "mismatched_elements": 0
+    },
+    "subtract_before_cast_errors": {
+      "max_abs_error": 0.4064788818359375,
+      "mean_abs_error": 0.0772847831249237,
+      "allclose": false,
+      "mismatched_elements": 45056
+    },
+    "feature_shape": [
+      1,
+      11,
+      4096
+    ],
+    "hook_calls": 1,
+    "independent_storage": true,
+    "finite": true,
+    "seed": 42,
+    "hook": "blocks.8.mlp.hook_post",
+    "prompt": "The quick brown fox jumps over the lazy dog.",
+    "tokens": [
+      [
+        50256,
+        464,
+        2068,
+        7586,
+        21831,
+        18045,
+        625,
+        262,
+        16931,
+        3290,
+        13
+      ]
+    ],
+    "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "python_version": "3.12.14",
+    "torch_version": "2.14.1+cpu",
+    "transformers_version": "5.19.0",
+    "assumption_based": true,
+    "passed": true
+  }
+]
